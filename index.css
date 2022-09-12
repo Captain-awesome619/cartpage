@@ -610,6 +610,9 @@ color: var(--gray2);
 }
 
 @media (max-width: 900px) {
+    .header1text{
+        justify-content: flex-start;
+    }
 .legal{
     display: none;
 }
