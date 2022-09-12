@@ -26,8 +26,8 @@
 }
 .cont{
     display: grid;
-    align-items: center;
     justify-content: center;
+align-items: center;
 }
 .header1text{
     display: flex;
@@ -261,7 +261,7 @@ margin-bottom: 7rem;
 display: flex;
 flex-direction: column;
 margin-right: 3rem;
-background-color: var(--background2);
+background-color:var(--background2) ;
 align-items: center;
 }
 .credit{
@@ -302,6 +302,7 @@ color: var(--black);
     display: flex;
     flex-direction: column;
     gap: 3rem;
+
 }
 
 .subtotal{
@@ -523,6 +524,7 @@ flex-direction: column;
 margin-right: 3rem;
 background-color: var(--background2);
 align-items: center;
+
 }
 .secondsection2{
     display: none;
@@ -550,8 +552,8 @@ align-items: center;
 .addtocart2{
     display: none;
     border-radius: 25px;
-align-items: center;
-justify-content: center;
+    align-items: center;
+    justify-content: center;
 cursor: pointer;
 background-color: transparent;
 border: 2px solid var(--gray2);
@@ -610,6 +612,8 @@ color: var(--gray2);
 }
 
 @media (max-width: 900px) {
+
+
     .header1text{
         justify-content: flex-start;
     }
@@ -661,6 +665,11 @@ color: var(--gray2);
 }
 .summary2{
     display: flex;
+    flex-direction: column;
+    margin-right: 0rem;
+    background-color: var(--background2);
+    align-items: center;
+    margin-left: 0rem;
 }
 .secondsection2{
     display: grid;
@@ -778,6 +787,7 @@ gap: 1.5rem;
 .credit{
     gap: 2rem;
 }
+
 .credittext{
     margin-left: 2rem;
 }
@@ -852,9 +862,7 @@ gap: 1.5rem;
         width: 55px;
         height: 55px;
     }
-  .cart{
-    margin-left: 1rem;
-  }
+
 
       .head3{
         margin-left: 3rem;
