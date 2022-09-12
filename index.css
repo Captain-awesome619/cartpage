@@ -121,6 +121,7 @@ padding-top: 1.5rem;
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0.5rem;
 }
 .imagetext1{
     display: grid;
@@ -143,8 +144,10 @@ color: var(--black);
 .section2{
     display: flex;
     gap: 0.5rem;
-    justify-content: center;
+    margin-bottom: 1.5rem;
     align-items: center;
+    justify-content: center;
+
 }
 .logo1{
     color: var(--gray2);
@@ -159,7 +162,7 @@ color: var(--gray2);
 .section3{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+
 }
 .section3text1{
     font-family: 'Lato';
@@ -610,10 +613,19 @@ color: var(--gray2);
 .legal2{
     display: none;
 }
-
+.store{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 @media (max-width: 900px) {
 
-
+.section1{
+    margin-bottom: 0rem;
+}
+.section2{
+    margin-bottom: 0rem;
+}
     .header1text{
         justify-content: flex-start;
     }
