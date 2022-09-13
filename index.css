@@ -618,7 +618,7 @@ color: var(--gray2);
     flex-direction: column;
     gap: 1.5rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 
 .section1{
     margin-bottom: 0rem;
@@ -713,6 +713,7 @@ color: var(--gray2);
     gap: 1rem;
     justify-content: space-around;
 padding-top: 0.5rem;
+padding-bottom: 0.5rem;
 }
 
 .song1{
@@ -800,9 +801,14 @@ gap: 1.5rem;
 .credit{
     gap: 2rem;
 }
-
+.accicon{
+    margin-right: 3rem;
+}
 .credittext{
     margin-left: 2rem;
+}
+.creditfig{
+    margin-right: 3rem;
 }
 .mid{
     margin-left: 1rem;
@@ -852,12 +858,14 @@ gap: 1.5rem;
     align-items: center;
     justify-content: center;
 }
+.account{
+    justify-content: space-between;
+    align-items: center;
+}
 }
 
 @media (max-width: 1300px){
-    .account{
-        justify-content: space-around;
-    }
+
 
 
         .credit{
@@ -899,6 +907,46 @@ gap: 1.5rem;
     }
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
